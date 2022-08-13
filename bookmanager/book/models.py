@@ -5,6 +5,9 @@ from django.db import models
 class BookInfo(models.Model):
     #id The system will give to us id
     name=models.CharField(max_length=10)
+    #rewrite str function to show name'book by admin
+    def __str__(self):
+        return self.name
 
 class PeopleInfo(models.Model):
     name = models.CharField(max_length=10)
