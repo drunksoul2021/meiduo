@@ -39,16 +39,18 @@ from
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="11f5ff69-17a0-4281-86ef-562940ca5bf8" object-ref="schemas/main/tables/book_bookinfo" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="d636367a-4e21-4a56-9747-2a2500b708cd" />
     <connection id="11f5ff69-17a0-4281-86ef-562940ca5bf8" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="11f5ff69-17a0-4281-86ef-562940ca5bf8" dataset="main.auth_user" active-filter-id="" />
+    <filter-actions connection-id="11f5ff69-17a0-4281-86ef-562940ca5bf8" dataset="main.auth_user" active-filter-id="06905441-61c6-48a9-9fbc-b89db7ef5d61">
+      <filter id="06905441-61c6-48a9-9fbc-b89db7ef5d61" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="is not null" value="" active="true" />
+      </filter>
+    </filter-actions>
     <filter-actions connection-id="11f5ff69-17a0-4281-86ef-562940ca5bf8" dataset="main.book_bookinfo" active-filter-id="d12b692b-ecce-424b-add7-e568bc45c885">
       <filter id="d12b692b-ecce-424b-add7-e568bc45c885" name="Filter" temporary="false" custom-name="false" type="basic" join-type="AND">
         <condition column="name" operator="is not null" value="" active="true" />
